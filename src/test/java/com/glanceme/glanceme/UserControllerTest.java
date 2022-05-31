@@ -71,6 +71,10 @@ public class UserControllerTest {
 		
 	}
 	
+	
+	//NOTE :----------------
+	//Here, users are tested considering the fact that our UserController has
+	//List<User> findByUsername(String username) which means findByUsername returns list of type User .
 	@Test
 	public void postUser_whenUserIsValid_passwordIsHashedInDatabase() {
 		

@@ -11,8 +11,8 @@ import com.glanceme.glanceme.user.User;
 public interface UserRepository extends JpaRepository<User, Long> {
 
 	
-	List<User> findByUsername(String username);
+//	List<User> findByUsername(String username);
 	
-//	User findByUsername(String username);
+	User findByUsername(String username);
 	
 }
